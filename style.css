@@ -14,7 +14,7 @@ body {
   width: 400px;
   height: 600px;
   /* background-color: rgba(65, 207, 255, 0.966); */
-  background-image: url('../public/background.png');
+  background-image: url('./public/background.png');
   position: relative;
   font-size: 200px;
   text-align: center;

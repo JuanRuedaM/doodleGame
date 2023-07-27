@@ -50,7 +50,7 @@ body {
 }
 
 .doodler{
-  background-image: url('../public/doodle-right.png');
+  background-image: url('./public/doodle-right.png');
   background-repeat: no-repeat;
   background-size: contain;
   width: 60px;

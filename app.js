@@ -151,7 +151,7 @@
   }
 
   const moveLeft = () => {
-    doodler.style.backgroundImage = "url('../public/doodle-left.png')"
+    doodler.style.backgroundImage = "url('./public/doodle-left.png')"
 
     if(isGoingRight) {
       clearInterval(rightTimerId)
@@ -169,7 +169,7 @@
   }
 
   const moveRight = () => {
-    doodler.style.backgroundImage = "url('../public/doodle-right.png')"
+    doodler.style.backgroundImage = "url('./public/doodle-right.png')"
 
     if(isGoingLeft) {
       clearInterval(leftTimerId)
